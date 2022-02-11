@@ -12456,15 +12456,16 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snapslider-react@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/snapslider-react/-/snapslider-react-0.1.2.tgz#960b6f301e4c7a71d9c9ad2d1c522f1d9943e8b0"
-  integrity sha512-L7Uzpb7c0ok1UfzZjAUt7Lth2uQhXZgRvNS0g9rTu9SyXiC/oDt4cmmrJaw2osQw/tfPPccKH1RrunX6T/5Zrg==
+snapslider-react@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/snapslider-react/-/snapslider-react-0.1.5.tgz#be92c7426bd6bed7013dbcb09ceaf5856ca53d34"
+  integrity sha512-3iLKA9MC97nljsbLyV/scYg/GNSQ2Au8aDsyh6ALCxqDmCQtJqpHKbEsFjxQ/w1dHrBUzlfWHgF/hvxCdaL/Tg==
   dependencies:
     "@babel/polyfill" "^7.12.1"
     "@testing-library/jest-dom" "^5.14.1"
     "@testing-library/react" "^11.2.7"
     "@testing-library/user-event" "^12.8.3"
+    lodash "^4.17.21"
     react "^17.0.2"
     react-dom "^17.0.2"
     react-scripts "4.0.3"
