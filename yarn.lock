@@ -12470,10 +12470,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snapslider-react@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/snapslider-react/-/snapslider-react-0.1.5.tgz#be92c7426bd6bed7013dbcb09ceaf5856ca53d34"
-  integrity sha512-3iLKA9MC97nljsbLyV/scYg/GNSQ2Au8aDsyh6ALCxqDmCQtJqpHKbEsFjxQ/w1dHrBUzlfWHgF/hvxCdaL/Tg==
+snapslider-react@^0.1.7:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/snapslider-react/-/snapslider-react-0.1.8.tgz#6e7ffebfe9e66f4cae70fd898e486aa35e5c22d6"
+  integrity sha512-2gZi6ECcjdeWzSYRvUWBVz1cX2ycFMM0vXZSjAbsDVPggfQ5I9UxBd5eowD9lhZ8I2Y7PaEMEzOQ8hMOR6R2vg==
   dependencies:
     "@babel/polyfill" "^7.12.1"
     "@testing-library/jest-dom" "^5.14.1"

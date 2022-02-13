@@ -4,25 +4,14 @@ import {useEffect, useState} from "react";
 
 function App() {
     const images = useRandomImages()
-    const [count, setCount] = useState(2)
 
     return (
         <div className="App">
             <h1>SnapSlider v1</h1>
-            <Section title={(<>
-                <span>Bilderslider</span>
-                <input
-                    type={"range"}
-                    min={1}
-                    max={12}
-                    value={count}
-                    onChange={e => setCount(e.target.value)}
-                />
-            </>)}>
+            <Section title={'SnapSlider Test v.0.1.7'}>
                 <SnapSlider
                     groupSize={'100%'}
-                    itemsPerGroup={count}
-                    onUpdateSettings={({itemsPerGroup}) => setCount(itemsPerGroup)}
+                    itemsPerGroup={1}
                 >
                     {images.map(image => <img key={image.id} src={image.download_url} alt={image.author}/>)}
                 </SnapSlider>
